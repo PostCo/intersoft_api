@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe IntersoftApi do
+RSpec.describe IntersoftAPI do
   it "has a version number" do
-    expect(IntersoftApi::VERSION).not_to be nil
+    expect(IntersoftAPI::VERSION).not_to be nil
   end
 
   it "does something useful" do
