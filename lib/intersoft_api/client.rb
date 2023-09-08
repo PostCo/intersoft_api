@@ -24,6 +24,10 @@ module IntersoftAPI
       end
     end
 
+    def shipment
+      ShipmentResource.new(self)
+    end
+
     def shipping_account
       ShippingAccountResource.new(self)
     end

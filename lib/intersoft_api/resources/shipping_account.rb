@@ -6,8 +6,8 @@ module IntersoftAPI
       ShippingAccount.new(post_request("shippingAccounts/rm", body: attributes).body)
     end
 
-    def find(id)
-      ShippingAccount.new(get_request("shippingAccounts/rm/#{id}").body)
+    def find(shipping_account_id)
+      ShippingAccount.new(get_request("shippingAccounts/rm/#{shipping_account_id}").body)
     end
   end
 end
